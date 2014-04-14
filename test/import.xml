@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <grandchild1 xmh-placeholder="grandchild1">asdasd</grandchild1>
+    <grandchild2 xmh-placeholder="grandchild2">asdasds</grandchild2>
+    <grandchild3 xmh-import="./import2.xml"></grandchild3>
+</root>
