@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <import2>Simple Value</import2>
+    <import2-deep xmh-import="folder/folder/import3.xml" />
+</root>

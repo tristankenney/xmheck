@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <test-grandparent>
+        <test-parent>
+            <test-child xmh-import="import.xml">
+                <xmh-param>
+                    <import-placeholder1>test-replacement-placeholder1</import-placeholder1>
+                    <import-placeholder2>test-replacement-placeholder2</import-placeholder2>
+                </xmh-param>
+                <test-keep>Simple Value</test-keep>
+            </test-child>
+        </test-parent>
+    </test-grandparent>
+</root>

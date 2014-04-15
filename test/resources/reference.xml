@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <test-grandparent>
+    <test-parent>
+      <test-keep>Simple Value</test-keep>
+      <import-grandchild1>test-replacement-placeholder1</import-grandchild1>
+      <import-grandchild2>test-replacement-placeholder2</import-grandchild2>
+      <import2>Simple Value</import2>
+      <import3-deep>
+        <import3-deep>
+          <import3-deep>
+            <import3-deep>
+              <import3-deep>Simple Value</import3-deep>
+            </import3-deep>
+          </import3-deep>
+        </import3-deep>
+      </import3-deep>
+      <import-grandchild4>import-default-placeholder4</import-grandchild4>
+      <import-grandchild5>
+        <import-default-grandchild5>Simple Value</import-default-grandchild5>
+      </import-grandchild5>
+    </test-parent>
+  </test-grandparent>
+</root>

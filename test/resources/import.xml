@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <import-grandchild1 xmh-placeholder="import-placeholder1">import-default-placeholder1</import-grandchild1>
+    <import-grandchild2 xmh-placeholder="import-placeholder2">
+        <import-default-grandchild2>Simple Value</import-default-grandchild2>
+    </import-grandchild2>
+    <import-grandchild3 xmh-import="import2.xml"></import-grandchild3>
+    <import-grandchild4 xmh-placeholder="import-placeholder3">import-default-placeholder4</import-grandchild4>
+    <import-grandchild5 xmh-placeholder="import-placeholder4">
+        <import-default-grandchild5>Simple Value</import-default-grandchild5>
+    </import-grandchild5>
+</root>
